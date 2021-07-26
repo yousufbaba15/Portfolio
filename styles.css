@@ -1,0 +1,242 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+#title {
+  background-color: #0d3895;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  color: White;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  color: White;
+  line-height: 60px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color:  #fff;
+}
+
+.h3-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color:  #0d3895;
+}
+
+.tes-text{
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat"
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Naviugation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.25rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+.btn-header{
+  border-color: #0d3895;
+}
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image mockup */
+.title-image {
+  width: 60%;
+
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3px;
+}
+
+.icon {
+  color: #0d3895;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #2a6f97;
+}
+
+.skill-icon {
+  padding: 15px;
+}
+
+.skill-icon:hover {
+  color: #0d3895;
+}
+
+.about {
+  padding-top: 5px;
+  font-size: 1.2rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0d3895;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* corousel-button */
+.carousel-item{
+  padding: 5% 15%;
+}
+
+
+/* Priicng Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.section-heading{
+  color: Black;
+  font-weight: bold;
+
+}
+
+
+/* Card Style */
+.card-header{
+  background-color: #0d3895;
+}
+
+.price-text{
+  color: #0d3895;
+  font-weight: bolder;
+}
+
+.pricing-button:hover{
+  background-color: #0d3895;
+  color: #fff;
+}
+
+/* Responsive Mobile Text */
+
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #0d3895;
+    padding: 7% 15%;
+}
+
+.cta-text{
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 10px 0 10px 10px;
+  font-size: 1rem;
+  margin-left: 50px;
+
+}
+
+.cta-head{
+  color: #fff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.card-img{
+  width: 12rem;
+  height: 12rem;
+  float: left;
+  padding: 12px;
+  border: 20px;
+  border-radius: 50%;
+  margin-right: 50px
+}
+
+@media (max-width: 1150px) {
+  .card-img{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 15rem;
+
+  }
+}
+
+.career-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Section */
+#footer{
+  padding: 2% 15%;
+  color: #0d3895;
+  text-align: center;
+}
+
+.social-media{
+  margin: 20px 10px;
+}
+
+.ftr-button{
+  color: Black;
+  margin: 0;
+}
+
+.foot-text{
+  font-weight:bold;
+  font-size: 1rem;
+
+}
